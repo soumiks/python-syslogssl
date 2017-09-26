@@ -1,0 +1,1 @@
+curl -o papertrail-bundle.pem https://papertrailapp.com/tools/papertrail-bundle.pem
