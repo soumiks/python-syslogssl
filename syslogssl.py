@@ -151,7 +151,7 @@ if __name__ == '__main__':
 
   logger = logging.getLogger()
   logger.setLevel(logging.INFO)
-  syslog =  SSLSysLogHandler(address=address, certs='syslog.papertrail.crt')
+  syslog =  SSLSysLogHandler(address=address, certs='papertrail-bundle.pem')
   logger.addHandler(syslog)
 
   logger.info('testing SSLSysLogHandler')
